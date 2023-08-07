@@ -87,8 +87,7 @@ The mobile-first approach is a strategy where you design and develop your websit
 Images can significantly impact the loading time and user experience on different devices. To make images responsive, you can use CSS techniques like setting the `max-width: 100%` property or using the `srcset` attribute in HTML to provide multiple image sources for different screen sizes.
 
 ```css
-
-`img {
+img {
   max-width: 100%;
   height: auto;
 }
